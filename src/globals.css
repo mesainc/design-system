@@ -1,0 +1,34 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  :root {
+    --color-primary-regular: #0d61ba;
+    --color-primary-light: ##439bed;
+    --color-primary-dark: #0c2445;
+
+    --color-secondary-regular: #335250;
+    --color-secondary-light: #bad5d1;
+    --color-secondary-dark: #121e1e;
+
+    --color-neutral-black: #131313;
+    --color-neutral-white: #f9f9f9;
+    --color-neutral-light: #c4c4c4;
+    --color-neutral-lightest: #0000000a;
+    --color-neutral-dark: #121e1e;
+
+    --color-feedback-error: #f44336;
+    --color-feedback-warning: #ff9800;
+    --color-feedback-success: #4caf;
+    --color-feedback-info: #2196f3;
+
+    --color-complementary-highlight: #43b4ff;
+  }
+
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}

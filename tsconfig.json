@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "jsx": "react-jsx",
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "declaration": true,
+    "types": ["node"],
+  },
+  "exclude": ["src/test/", "vitest.config.ts", "node_modules",
+    "**/*.test.ts", "**/*.spec.ts", "**/*.test.tsx", "**/*.spec.tsx", "**/*.stories.ts", "**/*.stories.tsx", "**/*.stories.d.ts", "public"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
